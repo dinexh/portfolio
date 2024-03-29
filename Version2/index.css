@@ -9,6 +9,7 @@
     width: 100%;
     background-color: black;
     color: white;
+    padding: 10px;
 }
 .container-in{
     width: 95%;
@@ -41,4 +42,46 @@ nav{
 .nav-two a{
     text-decoration: none;
     color: white    ;
+}
+.section-one{
+    width: 100%;
+    padding: 8.5rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-one img{
+    border-radius: 50px;
+}
+.section-one-in{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-one-in p{
+    font-weight: 500;
+    font-size: 1rem;
+}
+.section-one-in h3{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+.section-one-in h5{
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+.section-one-in span{
+    color: grey;
+}
+.section-one-in button{
+    width: 18%;
+    padding: 8px;
+    border-radius: 50px;
+    background-color: grey;
+    border: 2px solid transparent;
+    margin-top: 25px;
 }
