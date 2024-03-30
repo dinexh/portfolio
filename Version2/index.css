@@ -14,9 +14,9 @@
     /* padding: px; */
 }
 .container-in{
-    width: 95%;
+    width: 98%;
 }
-nav{
+nav{    
     padding: 0.7rem;
     width: 100%;
     display: flex;
@@ -25,7 +25,9 @@ nav{
 }
 .nav-one{
     width: 20%;
-    margin-left: 20px;
+    /* margin-left: 20px; */
+    display: flex;
+    /* background-color: red; */
 }
 .nav-one h3{
     font-weight: 400;
@@ -88,6 +90,12 @@ nav{
     border: 2px solid transparent;
     margin-top: 25px;
 }
+/* -----------------------------------------------SectionTwo-------------------------------------------------- */
+.section-two{
+    padding: 18rem;
+    width: 100%;
+    /* background-color: blue; */
+}
 /* ------------------------------------------------SectionThree---------------------------------------------- */
 .section-three{
     padding: 4rem 0rem ;
@@ -104,8 +112,18 @@ nav{
 }
 .section-three-boxs{
     width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
 }
-.section-three-boxs.container{
+.box{
+    padding: 4rem;
     width: 30%;
-    background-color: red;
+    /* background
+    ; */
+    background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
+    border-radius: 10px;
+    /* background-color: red; */
+    margin-top:4rem;
 }
