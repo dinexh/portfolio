@@ -9,7 +9,9 @@
     width: 100%;
     background-color: black;
     color: white;
-    padding: 10px;
+    display: flex;
+    justify-content: center;
+    /* padding: px; */
 }
 .container-in{
     width: 95%;
@@ -43,6 +45,7 @@ nav{
     text-decoration: none;
     color: white    ;
 }
+/*------------------------------------------------Section-one----------------------------------------------- */
 .section-one{
     width: 100%;
     padding: 8.5rem 0rem;
@@ -84,4 +87,25 @@ nav{
     background-color: grey;
     border: 2px solid transparent;
     margin-top: 25px;
+}
+/* ------------------------------------------------SectionThree---------------------------------------------- */
+.section-three{
+    padding: 4rem 0rem ;
+    width: 100%;
+    /* background-color:red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-three h2{
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+.section-three-boxs{
+    width: 95%;
+}
+.section-three-boxs.container{
+    width: 30%;
+    background-color: red;
 }
