@@ -92,9 +92,9 @@ nav{
 }
 /* -----------------------------------------------SectionTwo-------------------------------------------------- */
 .section-two{
-    padding: 18rem;
+    padding: 5rem;
     width: 100%;
-    /* background-color: blue; */
+    background-color: red;
 }
 /* ------------------------------------------------SectionThree---------------------------------------------- */
 .section-three{
